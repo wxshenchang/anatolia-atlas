@@ -1,0 +1,6 @@
+.git
+_build/venv
+_build/raw
+docs
+*.md
+geojson/demo.html

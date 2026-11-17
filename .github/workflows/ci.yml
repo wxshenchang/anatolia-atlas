@@ -1,0 +1,37 @@
+name: Data Integrity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: 出处与数据完整性
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: JS 语法检查
+        run: |
+          for f in js/*.js _build/check_data.js; do node --check "$f" || exit 1; done
+
+      - name: Python 生成器语法检查
+        run: |
+          for f in _build/*.py; do python -c "import ast,sys; ast.parse(open('$f',encoding='utf-8').read())" || exit 1; done
+
+      - name: 数据完整性自检（每个条目必须带出处）
+        run: node _build/check_data.js
+
+      - name: 页面资源无 404 引用
+        run: python _build/check_refs.py

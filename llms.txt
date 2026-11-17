@@ -1,0 +1,9 @@
+# 安纳托利亚时序（安纳托利亚时序 · 小亚细亚历史地图时间轴（赫梯至现代））
+
+交互式小亚细亚历史地图时间轴：从赫梯帝国、弗里吉亚与乌拉尔图、吕底亚、阿契美尼德波斯、希腊化诸王国、罗马与拜占庭，到罗姆苏丹国、蒙古宗主权、安纳托利亚诸贝伊国、奥斯曼帝国与土耳其共和国，15 个时期疆域快照、古今地名沿革、名关通道与人物纪事，附各国学术文献出处。
+
+- 站点: 本仓库（index.html 即可运行）
+- 数据格式: data/atlas/<period>/s_<period>.geojson（江山时序兼容）
+- 史料: data/sources/<period>.json（各国学术文献）
+- 底图: Natural Earth 1:10m（public domain）；疆域底块: historical-basemaps (GPL-3.0)
+- 界面: 改编自 Jiangshan Atlas（GPL-3.0, github.com/DeanChensj/jiangshan-map）

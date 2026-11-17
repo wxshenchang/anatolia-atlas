@@ -1,0 +1,21 @@
+{
+ "period": "roman_empire",
+ "note": "本时期史事与地名归属的参考出处（学术著作与原始史料）。边界为近似示意，不代表测绘边界。",
+ "references": [
+  {
+   "citation": "Magie, David. *Roman Rule in Asia Minor*. Princeton UP, 1950."
+  },
+  {
+   "citation": "Mitchell, Stephen. *Anatolia: Land, Men, and Gods in Asia Minor* (2 vols.). Oxford UP, 1993."
+  },
+  {
+   "citation": "Halfmann, Helmut. *Éphèse et Pergame: urbanisme et commanditaires*. De Boccard, 2004（法文）。"
+  },
+  {
+   "citation": "《罗马帝国碑铭集成》(CIL) 第 III 卷小亚细亚铭文。"
+  },
+  {
+   "citation": "Potter, David S. *The Roman Empire at Bay, AD 180–395*. Routledge, 2004."
+  }
+ ]
+}

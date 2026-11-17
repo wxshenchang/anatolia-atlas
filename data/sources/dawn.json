@@ -1,0 +1,17 @@
+{
+  "period": "dawn",
+  "note": "本时期（前 3500—前 1650，两河与尼罗河的黎明）史事、地名归属与断代的参考出处。疆域为近似示意，不是测绘边界。",
+  "references": [
+    {"citation": "《剑桥古代史》第 1 卷第 1、2 分册（Prolegomena and Prehistory; Early History of the Middle East），Cambridge University Press。"},
+    {"citation": "Woolley, C. Leonard. *Ur Excavations*, vol. 2: *The Royal Cemetery*. British Museum & University of Pennsylvania, 1934（乌尔王陵）。"},
+    {"citation": "Uruk-Warka 发掘报告（Deutsches Archäologisches Institut, Abteilung Uruk-Warka Endberichte）（乌鲁克与楔形文字起源）。"},
+    {"citation": "《乌尔纳姆法典》泥板（伊斯坦布尔考古博物馆、宾夕法尼亚大学博物馆藏）与 Finkelstein, J. J. 相关研究。"},
+    {"citation": "《汉谟拉比法典》石碑（Louvre Sb 8）；Roth, Martha T. *Law Collections from Mesopotamia and Asia Minor*. SBL, 1997。"},
+    {"citation": "Ebla 档案（Archivi Reali di Ebla, ARET 系列）与 Matthiae, Paolo 的发掘报告（埃勃拉）。"},
+    {"citation": "Mari 王宫档案（Archives Royales de Mari, ARM 系列）与 Parrot, André 的发掘报告（马里）。"},
+    {"citation": "《牛津古埃及史》（Shaw, Ian, ed. *The Oxford History of Ancient Egypt*. OUP, 2000）（埃及早王朝至中王国）。"},
+    {"citation": "Dunand, Maurice & Bounni, Adnan 等关于比布鲁斯（Byblos）的发掘与铭文研究。"},
+    {"citation": "Babylonian King List A（大英博物馆藏泥板）与 Brinkman, J. A. 关于巴比伦第一王朝的年代学研究。"},
+    {"citation": "Natural Earth 1:10m（public domain）与 aourednik/historical-basemaps（GPL-3.0）作为底图与历史多边形基底。"}
+  ]
+}

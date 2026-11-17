@@ -1,0 +1,13 @@
+services:
+  anatolia-atlas:
+    build:
+      context: .
+      dockerfile: Dockerfile.static
+    image: anatolia-atlas:local
+    container_name: anatolia-atlas
+    ports:
+      - "38602:80"
+    # 开发期直接把仓库挂进容器，改 js/html 后只需 docker restart（无需重建镜像）
+    volumes:
+      - ./:/usr/share/nginx/html:ro
+    restart: unless-stopped

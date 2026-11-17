@@ -1,0 +1,21 @@
+{
+ "period": "byzantine",
+ "note": "本时期史事与地名归属的参考出处（学术著作与原始史料）。边界为近似示意，不代表测绘边界。",
+ "references": [
+  {
+   "citation": "Ostrogorsky, Georg. *Geschichte des byzantinischen Staates*. C. H. Beck, 1963（德文；英译 *History of the Byzantine State*）。"
+  },
+  {
+   "citation": "Whittow, Mark. *The Making of Orthodox Byzantium, 600–1025*. Macmillan, 1996."
+  },
+  {
+   "citation": "Haldon, John. *Byzantium in the Seventh Century*. Cambridge UP, 1997（军区制）。"
+  },
+  {
+   "citation": "Treadgold, Warren. *A History of the Byzantine State and Society*. Stanford UP, 1997."
+  },
+  {
+   "citation": "《牛津拜占庭研究手册》(The Oxford Handbook of Byzantine Studies), OUP, 2008."
+  }
+ ]
+}

@@ -1337,7 +1337,7 @@
         if (n <= 0) return `${-n || 1} BCE`;
         return compact ? `${n}` : `${n} CE`;
       }
-      if (n <= 0) return `${compact ? '前' : '公元前'}${-n || 1}${compact ? '' : '年'}`;
+      if (n <= 0) return `公元前${-n || 1}${compact ? '' : '年'}`;
       return compact ? `${n}` : `公元 ${n} 年`;
     }
 
@@ -5713,7 +5713,7 @@
         this._polityEventsCache = events;
         for (const ev of events) {
           const li = document.createElement('li');
-          const yrLabel = en ? this.formatYear(ev.year) : `${ev.year <= 0 ? '前' + -ev.year : ev.year} 年`;
+          const yrLabel = en ? this.formatYear(ev.year) : `${ev.year <= 0 ? '公元前' + -ev.year + '年' : ev.year + ' 年'}`;
           const text = ev.milestone
             ? this.milestoneHeadline(ev.dynasty, ev.milestone)
             : en
@@ -6251,7 +6251,7 @@
         const yrLabel =
           this.locale === 'en'
             ? this.formatYear(m.year)
-            : `${m.year <= 0 ? '前' + -m.year : m.year} 年`;
+            : `${m.year <= 0 ? '公元前' + -m.year + '年' : m.year + ' 年'}`;
         const badge = isMapChange
           ? `<span class="ev-map-tag" title="${this.locale === 'en' ? 'Map territory, city, or river course changes at this year' : '此节点触发版图、城池或河道水系变化'}">${SVG_ICONS.mapChange}</span>`
           : '';
@@ -6896,7 +6896,7 @@
         const tk = tickNodes[idx];
         if (tk) {
           const y = this._bandYearSpan(d)[0];
-          tk.textContent = y <= 0 ? (this.locale === 'en' ? `${-y} BCE` : `前${-y}`) : `${y}`;
+          tk.textContent = y <= 0 ? (this.locale === 'en' ? `${-y} BCE` : `公元前${-y}`) : `${y}`;
         }
       });
       const endTick = this._id('tick-present');
@@ -6909,7 +6909,7 @@
             : end <= 0
               ? this.locale === 'en'
                 ? `${-end} BCE`
-                : `前${-end}`
+                : `公元前${-end}`
               : `${end}`;
       }
       this._fitBandLabels();

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "license": "Approximate historical boundaries for illustration, not surveyed borders. When reusing, credit Jiangshan Atlas (https://github.com/DeanChensj/jiangshan-map) and the sources in data/atlas/README.md. Prefecture-level (郡/州/府) boundaries derive from CHGIS V6 and the Hartwell China Historical GIS: academic, non-commercial use only; do not redistribute; not licensed under GPL-3.0.",
   "snapshot": {
-    "caption": "前 800 年 · 亚述西进",
+    "caption": "公元前800 年 · 亚述西进",
     "note": "提格拉特帕拉沙尔三世以降，亚述逼近叙利亚与东南安纳托利亚。",
     "polities": [
       "塞浦路斯诸城邦",

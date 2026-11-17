@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "license": "Approximate historical boundaries for illustration, not surveyed borders. When reusing, credit Jiangshan Atlas (https://github.com/DeanChensj/jiangshan-map) and the sources in data/atlas/README.md. Prefecture-level (郡/州/府) boundaries derive from CHGIS V6 and the Hartwell China Historical GIS: academic, non-commercial use only; do not redistribute; not licensed under GPL-3.0.",
   "snapshot": {
-    "caption": "300 年 · 四帝共治",
+    "caption": "公元300 年 · 四帝共治",
     "note": "戴克里先行省改革细分行省，安纳托利亚被划入多个新行省与教区。",
     "polities": [
       "罗马塞浦路斯行省",

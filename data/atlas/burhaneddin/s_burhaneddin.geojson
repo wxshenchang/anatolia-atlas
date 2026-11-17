@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "license": "Approximate historical boundaries for illustration, not surveyed borders. When reusing, credit Jiangshan Atlas (https://github.com/DeanChensj/jiangshan-map) and the sources in data/atlas/README.md. Prefecture-level (郡/州/府) boundaries derive from CHGIS V6 and the Hartwell China Historical GIS: academic, non-commercial use only; do not redistribute; not licensed under GPL-3.0.",
   "snapshot": {
-    "caption": "1390 年 · 贝伊国并立与布尔汉丁",
+    "caption": "公元1390 年 · 贝伊国并立与布尔汉丁",
     "note": "帖木儿南下前夜：奥斯曼、卡拉曼、布尔汉丁与白羊诸势力在安纳托利亚并立。",
     "polities": [
       "吕西尼昂塞浦路斯",

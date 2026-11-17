@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "license": "Approximate historical boundaries for illustration, not surveyed borders. When reusing, credit Jiangshan Atlas (https://github.com/DeanChensj/jiangshan-map) and the sources in data/atlas/README.md. Prefecture-level (郡/州/府) boundaries derive from CHGIS V6 and the Hartwell China Historical GIS: academic, non-commercial use only; do not redistribute; not licensed under GPL-3.0.",
   "snapshot": {
-    "caption": "前 550 年 · 居鲁士崛起",
+    "caption": "公元前550 年 · 居鲁士崛起",
     "note": "波斯人推翻米底，居鲁士二世兵临哈里斯河，吕底亚危在旦夕。",
     "polities": [
       "塞浦路斯诸城邦",

@@ -51,7 +51,7 @@ def load_dyn():
 
 
 def year_label(y):
-    return f"前{-y}" if y < 0 else f"{y}"
+    return f"公元前{-y}" if y < 0 else f"{y}"
 
 
 def build_jsonld(dyn):
@@ -103,7 +103,7 @@ def build_jsonld(dyn):
                     "name": "这是什么地图？",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": f"{NAME}（{SITE}/）是一个开源免费的交互式小亚细亚（安纳托利亚）历史地图时间轴，覆盖公元前 1650 年赫梯时代至现代共 14 个历史时代、48 个阶段疆域快照，可拖动时间轴查看各时期政权疆域、古今地名沿革、名关通道与旅行者路线。",
+                        "text": f"{NAME}（{SITE}/）是一个开源免费的交互式小亚细亚（安纳托利亚）历史地图时间轴，覆盖公元前1650 年赫梯时代至现代共 14 个历史时代、48 个阶段疆域快照，可拖动时间轴查看各时期政权疆域、古今地名沿革、名关通道与旅行者路线。",
                     },
                 },
                 {
@@ -131,7 +131,7 @@ def build_jsonld(dyn):
 def build_directory(dyn):
     lines = [
         f'    <nav id="seo-atlas-directory" class="sr-only-seo" aria-hidden="true" aria-label="安纳托利亚历代疆域、点地溯源与名关通道索引">',
-        f"      <h2>{NAME}：安纳托利亚历代疆域地图、古今地名对照与历史事件全览（前 1650 年—现代）</h2>",
+        f"      <h2>{NAME}：安纳托利亚历代疆域地图、古今地名对照与历史事件全览（公元前1650年—现代）</h2>",
         f"      <p>本交互式小亚细亚历史地图时间轴涵盖赫梯、铁器早期、吕底亚与东方诸国、阿契美尼德波斯、亚历山大与继业者、希腊化诸王国、罗马、拜占庭、突厥与十字军、蒙古宗主权、诸贝伊国与奥斯曼、奥斯曼鼎盛与晚期直到土耳其共和国，共 14 个历史时代、48 个阶段疆域快照、78 处古今地名沿革、7 处名关通道与 7 条旅行者路线。</p>",
         "      <section>",
         "        <h3>一、历代疆域时间轴目录（Periods &amp; Territories）</h3>",
@@ -246,7 +246,7 @@ def main():
     html = re.sub(r'(<p id="dynasty-summary" class="dynasty-desc">)[^<]*(</p>)',
                   r"\g<1>" + re.sub(r"\s+", " ", first["summary"]).strip() + r"\g<2>", html, count=1)
     # 年份输入框下限
-    html = html.replace('min="-403" max="2026" step="1" value="-403"', 'min="-1650" max="2026" step="1" value="-1650"')
+    html = html.replace('min="-403" max="2026" step="1" value="-403"', 'min="-3500" max="2026" step="1" value="-2334"')
 
     open(path, "w", encoding="utf-8").write(html)
     print(f"index.html 重写：JSON-LD {n1} 块、目录 {n2} 块、域名已换")

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "license": "Approximate historical boundaries for illustration, not surveyed borders. When reusing, credit Jiangshan Atlas (https://github.com/DeanChensj/jiangshan-map) and the sources in data/atlas/README.md. Prefecture-level (郡/州/府) boundaries derive from CHGIS V6 and the Hartwell China Historical GIS: academic, non-commercial use only; do not redistribute; not licensed under GPL-3.0.",
   "snapshot": {
-    "caption": "前 1100 年 · 崩溃之后",
+    "caption": "公元前1100 年 · 崩溃之后",
     "note": "新赫梯诸邦在东南延续，弗里吉亚人据中西部，安纳托利亚无统一强权。",
     "polities": [
       "迈锡尼希腊",

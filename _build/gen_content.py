@@ -127,7 +127,7 @@ SOURCES = {
 # 每个事件：背景 → 经过 → 影响；附一手/代表性出处。外文史料中文名按通行译名。
 MILESTONE_DETAIL = {
  "hittite:-1650": [
-  "哈图西里一世（约前 1650—前 1620 在位）把都城从库沙拉迁到哈图沙（今博阿兹卡莱），统一安纳托利亚中部。赫梯由此从若干城邦联盟变成中央集权的王国，并继承阿卡德-亚述式书吏传统，留下印欧语系最早的大宗文献档案。",
+  "哈图西里一世（约公元前1650—公元前1620 在位）把都城从库沙拉迁到哈图沙（今博阿兹卡莱），统一安纳托利亚中部。赫梯由此从若干城邦联盟变成中央集权的王国，并继承阿卡德-亚述式书吏传统，留下印欧语系最早的大宗文献档案。",
   "Bryce《赫梯王国》"
  ],
  "hittite:-1595": [
@@ -171,7 +171,7 @@ MILESTONE_DETAIL = {
   "希罗多德 i.8—14 / 亚述泥板"
  ],
  "lydia:-630": [
-  "辛梅里安人破萨第斯，古革斯战死，其子阿尔迪斯继位。吕底亚一度向亚述称臣求援，最终在前 6 世纪初把辛梅里安人逐出安纳托利亚。这场战乱让萨第斯在考古地层中留下明显的破坏层。",
+  "辛梅里安人破萨第斯，古革斯战死，其子阿尔迪斯继位。吕底亚一度向亚述称臣求援，最终在公元前6 世纪初把辛梅里安人逐出安纳托利亚。这场战乱让萨第斯在考古地层中留下明显的破坏层。",
   "希罗多德 i.15—16"
  ],
  "lydia:-610": [
@@ -179,7 +179,7 @@ MILESTONE_DETAIL = {
   "以弗所钱币窖藏 / 大英博物馆藏品"
  ],
  "lydia:-585": [
-  "吕底亚与米底争夺东部，哈里斯河（今克孜勒河）畔会战时恰逢日全食（天文学可精确推算为前 585 年 5 月 28 日），双方视为天谴而罢兵，以河为界。这是史上第一次有确切日期的战役，也标定希罗多德的年代学。",
+  "吕底亚与米底争夺东部，哈里斯河（今克孜勒河）畔会战时恰逢日全食（天文学可精确推算为公元前585年 5 月 28 日），双方视为天谴而罢兵，以河为界。这是史上第一次有确切日期的战役，也标定希罗多德的年代学。",
   "希罗多德 i.74"
  ],
  "lydia:-547": [
@@ -231,7 +231,7 @@ MILESTONE_DETAIL = {
   "阿庇安《叙利亚史》"
  ],
  "hellenistic:-261": [
-  "帕加马的腓莱泰罗斯原为利西马科斯的守库人，前 281 年后自立；其侄欧迈尼斯一世在库鲁佩迪安战后正式建立阿塔罗斯王朝，定都帕加马。帕加马凭银矿、羊皮纸与阿塔罗斯柱廊成为东部文化中心。",
+  "帕加马的腓莱泰罗斯原为利西马科斯的守库人，公元前281年后自立；其侄欧迈尼斯一世在库鲁佩迪安战后正式建立阿塔罗斯王朝，定都帕加马。帕加马凭银矿、羊皮纸与阿塔罗斯柱廊成为东部文化中心。",
   "Strabo xiii / 帕加马铭文"
  ],
  "hellenistic:-230": [
@@ -416,7 +416,7 @@ CONTENT = [
                          "记账泥板与最早的数字符号；文字从经济会计中产生，是世界上最早的书写系统。",
                   source="《剑桥古代史》卷 1（Uruk 期）/ 乌鲁克-瓦尔卡发掘报告（德国考古研究所）"),
              dict(year=-2600, headline="乌尔王陵与早期王权", site="乌尔", coord=[46.10, 30.96],
-                  detail="伍莱（Leonard Woolley）1920—30 年代在乌尔发掘的王陵（约前 2600—前 2500）出土金器、青金石、"
+                  detail="伍莱（Leonard Woolley）1920—30 年代在乌尔发掘的王陵（约公元前2600—公元前2500）出土金器、青金石、"
                          "镶饰军旗与人殉墓室，显示早期城邦的王权与远程贸易网络已相当发达。",
                   source="Woolley《Ur Excavations》卷 2（Royal Cemetery）"),
              dict(year=-2334, headline="萨尔贡建立阿卡德帝国", site="阿卡德", coord=[44.30, 33.10],
@@ -436,7 +436,7 @@ CONTENT = [
                          "顶部为汉谟拉比受权于太阳神沙马什的浮雕；马尔杜克由此升为全国主神。",
                   source="汉谟拉比法典石碑（Louvre Sb 8）/《剑桥古代史》卷 1"),
              dict(year=-1650, headline="赫梯登上安纳托利亚舞台", site="哈图沙", coord=[34.62, 40.02],
-                  detail="哈图西里一世定都哈图沙，赫梯王国成形；此后一个半世纪内赫梯南下叙利亚、并前 1595 年劫掠巴比伦，"
+                  detail="哈图西里一世定都哈图沙，赫梯王国成形；此后一个半世纪内赫梯南下叙利亚、并公元前1595年劫掠巴比伦，"
                          "从安纳托利亚的区域势力变为近东强权。",
                   source="Bryce《赫梯王国》/ 哈图沙档案（Boğazköy 泥板）"),
          ],
@@ -444,11 +444,11 @@ CONTENT = [
              dict(ancient="乌鲁克", modern="瓦尔卡（伊拉克）", coord=[45.64, 31.32], isCapital=True, remark="前 4 千年最大的城市，楔形文字发源地"),
              dict(ancient="乌尔", modern="乌尔遗址（伊拉克）", coord=[46.10, 30.96], remark="南纳神庙与乌尔王陵"),
              dict(ancient="尼普尔", modern="努法尔（伊拉克）", coord=[45.23, 32.13], remark="恩利尔神庙，两河宗教中心"),
-             dict(ancient="巴比伦", modern="巴比伦遗址（伊拉克）", coord=[44.42, 32.54], remark="前 18 世纪起为巴比伦尼亚核心"),
+             dict(ancient="巴比伦", modern="巴比伦遗址（伊拉克）", coord=[44.42, 32.54], remark="公元前18 世纪起为巴比伦尼亚核心"),
              dict(ancient="孟菲斯", modern="孟菲斯遗址（埃及）", coord=[31.25, 29.85], remark="埃及早王朝首都"),
              dict(ancient="比布鲁斯", modern="朱拜勒（黎巴嫩）", coord=[35.65, 34.12], remark="腓尼基最古老的港口，木材转口"),
              dict(ancient="埃布拉", modern="特尔马尔迪赫（叙利亚）", coord=[36.80, 35.80], remark="前 3 千年的叙利亚商队王国"),
-             dict(ancient="哈图沙", modern="博阿兹卡莱", coord=[34.62, 40.02], remark="前 17 世纪成为赫梯都城"),
+             dict(ancient="哈图沙", modern="博阿兹卡莱", coord=[34.62, 40.02], remark="公元前17 世纪成为赫梯都城"),
          ]),
     dict(key="hittite",
          milestones=[
@@ -460,7 +460,7 @@ CONTENT = [
          ],
          settlements=[
              dict(ancient="哈图沙", modern="博阿兹卡莱", coord=[34.62, 40.02], isCapital=True, remark="赫梯都城，世界遗产"),
-             dict(ancient="巴比伦", modern="巴比伦遗址（伊拉克）", coord=[44.42, 32.54], remark="古巴比伦都城，前 1595 年被赫梯攻陷"),
+             dict(ancient="巴比伦", modern="巴比伦遗址（伊拉克）", coord=[44.42, 32.54], remark="古巴比伦都城，公元前1595年被赫梯攻陷"),
              dict(ancient="沙皮努瓦", modern="舒沙特（Çorum）", coord=[34.95, 40.55], isCapital=False, remark="赫梯宗教中心"),
              dict(ancient="内萨", modern="屈尔泰佩", coord=[35.48, 38.73], isCapital=False, remark="早期赫梯/亚述商馆"),
              dict(ancient="卡尼什", modern="屈尔泰佩", coord=[35.48, 38.73], isCapital=False),
@@ -530,7 +530,7 @@ CONTENT = [
          ],
          settlements=[
              dict(ancient="亚历山大里亚·特洛阿斯", modern="达尔扬", coord=[26.16, 39.55], isCapital=False),
-             dict(ancient="安条克", modern="安塔基亚", coord=[36.16, 36.20], isCapital=False, remark="塞琉古西部都城（前 300 建）"),
+             dict(ancient="安条克", modern="安塔基亚", coord=[36.16, 36.20], isCapital=False, remark="塞琉古西部都城（公元前300 建）"),
              dict(ancient="塞琉西亚", modern="巴格达附近", coord=[44.52, 33.10], isCapital=False, remark="底格里斯河畔塞琉古都城"),
              dict(ancient="吕西马基亚", modern="盖利博卢半岛", coord=[26.70, 40.55], isCapital=True, remark="利西马科斯都城"),
              dict(ancient="帕加马", modern="贝尔加马", coord=[27.18, 39.12], isCapital=False),
@@ -856,7 +856,7 @@ EXTRA_MILESTONES = {
     31.98,
     39.65
    ],
-   "detail": "希腊传统认为弗里吉亚人自巴尔干迁入，考古显示其陶器与墓葬在公元前 12—11 世纪突然出现于中西部，与赫梯崩溃的时间吻合。",
+   "detail": "希腊传统认为弗里吉亚人自巴尔干迁入，考古显示其陶器与墓葬在公元前12—11 世纪突然出现于中西部，与赫梯崩溃的时间吻合。",
    "source": "《剑桥古代史》卷 II.2"
   },
   {
@@ -1631,7 +1631,7 @@ EXTRA_MILESTONES_2 = {
     28.04,
     38.48
    ],
-   "detail": "波斯舰队在萨拉米斯覆没，薛西斯退回亚洲；安纳托利亚的希腊城邦短暂摆脱波斯控制，但前 386 年后再度归附。",
+   "detail": "波斯舰队在萨拉米斯覆没，薛西斯退回亚洲；安纳托利亚的希腊城邦短暂摆脱波斯控制，但公元前386年后再度归附。",
    "source": "希罗多德 viii / 埃斯库罗斯《波斯人》"
   },
   {
@@ -2108,11 +2108,11 @@ EXTRA_SETTLEMENTS = {
     ],
     "post_hittite": [
         dict(ancient="大马士革", modern="大马士革（叙利亚）", coord=[36.29, 33.51], remark="亚兰-大马士革王国都城"),
-        dict(ancient="推罗", modern="苏尔（黎巴嫩）", coord=[35.20, 33.27], remark="腓尼基殖民母邦，前 9 世纪建立迦太基"),
+        dict(ancient="推罗", modern="苏尔（黎巴嫩）", coord=[35.20, 33.27], remark="腓尼基殖民母邦，公元前9 世纪建立迦太基"),
         dict(ancient="尼尼微", modern="摩苏尔附近（伊拉克）", coord=[43.15, 36.36], remark="亚述帝国晚期都城"),
     ],
     "lydia": [
-        dict(ancient="耶路撒冷", modern="耶路撒冷", coord=[35.23, 31.78], remark="前 586 年第一圣殿被新巴比伦焚毁"),
+        dict(ancient="耶路撒冷", modern="耶路撒冷", coord=[35.23, 31.78], remark="公元前586年第一圣殿被新巴比伦焚毁"),
         dict(ancient="孟菲斯", modern="孟菲斯遗址（埃及）", coord=[31.25, 29.85], remark="埃及后王朝都城之一"),
         dict(ancient="推罗", modern="苏尔（黎巴嫩）", coord=[35.20, 33.27], remark="尼布甲尼撒围城十三年未克"),
     ],
@@ -2123,14 +2123,14 @@ EXTRA_SETTLEMENTS = {
         dict(ancient="西顿", modern="赛达（黎巴嫩）", coord=[35.37, 33.56], remark="腓尼基城邦，波斯海军主要提供者"),
     ],
     "alexander": [
-        dict(ancient="亚历山大港", modern="亚历山大（埃及）", coord=[29.92, 31.20], remark="前 331 年建城，托勒密王朝首都"),
+        dict(ancient="亚历山大港", modern="亚历山大（埃及）", coord=[29.92, 31.20], remark="公元前331年建城，托勒密王朝首都"),
         dict(ancient="孟菲斯", modern="孟菲斯遗址（埃及）", coord=[31.25, 29.85], remark="亚历山大在孟菲斯加冕"),
-        dict(ancient="推罗", modern="苏尔（黎巴嫩）", coord=[35.20, 33.27], remark="前 332 年被亚历山大围攻七月而陷"),
-        dict(ancient="加沙", modern="加沙", coord=[34.47, 31.50], remark="前 332 年围城，波斯埃及通道的要点"),
+        dict(ancient="推罗", modern="苏尔（黎巴嫩）", coord=[35.20, 33.27], remark="公元前332年被亚历山大围攻七月而陷"),
+        dict(ancient="加沙", modern="加沙", coord=[34.47, 31.50], remark="公元前332年围城，波斯埃及通道的要点"),
     ],
     "diadochi": [
         dict(ancient="亚历山大港", modern="亚历山大（埃及）", coord=[29.92, 31.20], remark="托勒密王朝首都，地中海学术中心"),
-        dict(ancient="安条克", modern="安塔基亚（土耳其）", coord=[36.16, 36.20], remark="前 300 年建城，塞琉古王朝西都"),
+        dict(ancient="安条克", modern="安塔基亚（土耳其）", coord=[36.16, 36.20], remark="公元前300年建城，塞琉古王朝西都"),
         dict(ancient="耶路撒冷", modern="耶路撒冷", coord=[35.23, 31.78], remark="塞琉古与托勒密反复争夺的圣城"),
     ],
     "roman_empire": [

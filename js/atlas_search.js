@@ -274,7 +274,7 @@
       }
 
       // 0b. Regional & rival regimes (割据 / 并立政权)
-      const yrZh = (y) => (y <= 0 ? `前${-y}` : `${y}`);
+      const yrZh = (y) => (y <= 0 ? `公元前${-y}` : `${y}`);
       const yrEn = (y) => (y <= 0 ? `${-y} BCE` : `${y} CE`);
       for (const p of HistoricalAtlasController.POLITY_PROFILES) {
         const bareZhPol = p.zh.replace(/[（(][^）)]*[）)]/g, '').trim().toLowerCase();

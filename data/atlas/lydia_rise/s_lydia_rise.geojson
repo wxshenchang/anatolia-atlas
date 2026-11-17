@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "license": "Approximate historical boundaries for illustration, not surveyed borders. When reusing, credit Jiangshan Atlas (https://github.com/DeanChensj/jiangshan-map) and the sources in data/atlas/README.md. Prefecture-level (郡/州/府) boundaries derive from CHGIS V6 and the Hartwell China Historical GIS: academic, non-commercial use only; do not redistribute; not licensed under GPL-3.0.",
   "snapshot": {
-    "caption": "前 650 年 · 吕底亚崛起",
+    "caption": "公元前650 年 · 吕底亚崛起",
     "note": "古革斯王朝据萨第斯，与亚述结盟抗辛梅里安；小亚细亚最早的钱币出现。",
     "polities": [
       "塞浦路斯诸城邦",

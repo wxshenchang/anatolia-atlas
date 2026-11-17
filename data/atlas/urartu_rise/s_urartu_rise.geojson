@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "license": "Approximate historical boundaries for illustration, not surveyed borders. When reusing, credit Jiangshan Atlas (https://github.com/DeanChensj/jiangshan-map) and the sources in data/atlas/README.md. Prefecture-level (郡/州/府) boundaries derive from CHGIS V6 and the Hartwell China Historical GIS: academic, non-commercial use only; do not redistribute; not licensed under GPL-3.0.",
   "snapshot": {
-    "caption": "前 860 年 · 乌拉尔图崛起",
+    "caption": "公元前860 年 · 乌拉尔图崛起",
     "note": "图什帕（凡城）为都，乌拉尔图与亚述争雄东部高原。",
     "polities": [
       "塞浦路斯诸城邦",

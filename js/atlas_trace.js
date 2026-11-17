@@ -203,7 +203,7 @@
         if (y0 <= 0 && y1 > 0) return ` (${-y0} BCE – ${y1} CE)`;
         return ` (${y0}–${y1})`;
       }
-      const fZh = (y) => (y <= 0 ? `前${-y}` : `${y}`);
+      const fZh = (y) => (y <= 0 ? `公元前${-y}` : `${y}`);
       return `（${fZh(y0)}—${fZh(y1)}）`;
     }
 

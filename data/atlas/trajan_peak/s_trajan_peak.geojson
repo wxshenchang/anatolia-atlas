@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "license": "Approximate historical boundaries for illustration, not surveyed borders. When reusing, credit Jiangshan Atlas (https://github.com/DeanChensj/jiangshan-map) and the sources in data/atlas/README.md. Prefecture-level (郡/州/府) boundaries derive from CHGIS V6 and the Hartwell China Historical GIS: academic, non-commercial use only; do not redistribute; not licensed under GPL-3.0.",
   "snapshot": {
-    "caption": "117 年 · 图拉真极盛",
+    "caption": "公元117 年 · 图拉真极盛",
     "note": "短暂设立亚美尼亚与美索不达米亚行省，帝国东部达波斯湾。",
     "polities": [
       "罗马塞浦路斯行省",

@@ -94,7 +94,7 @@
             const rawLbl = st.query || st.name;
             const baseLbl = isEn ? this.trTerm(rawLbl) : this._zh(rawLbl);
             const yrTag =
-              st.year < 0 ? (isEn ? `${-st.year} BCE` : `前${-st.year}`) : `${st.year}`;
+              st.year < 0 ? (isEn ? `${-st.year} BCE` : `公元前${-st.year}`) : `${st.year}`;
             const lbl = isMultiYear && st.year !== undefined ? `${baseLbl} (${yrTag})` : baseLbl;
             const cls = i === curIdx ? 'cr-stop-pill is-current' : 'cr-stop-pill';
             return `<button type="button" class="${cls}" data-cidx="${i}"><span class="cr-stop-num">${i + 1}</span><span>${escHtml(lbl)}</span></button>`;
@@ -114,7 +114,7 @@
                 const rawLbl = st.query || st.name;
                 const baseLbl = isEn ? this.trTerm(rawLbl) : this._zh(rawLbl);
                 const yrTag =
-                  st.year < 0 ? (isEn ? `${-st.year} BCE` : `前${-st.year}`) : `${st.year}`;
+                  st.year < 0 ? (isEn ? `${-st.year} BCE` : `公元前${-st.year}`) : `${st.year}`;
                 const lbl = isMultiYear && st.year !== undefined ? `${baseLbl} (${yrTag})` : baseLbl;
                 const isCur = globalIdx === curIdx;
                 const convCls = st.convergence ? ' is-converge' : '';
@@ -1123,7 +1123,7 @@
         const isEn = this.locale === 'en';
         const baseLbl = isEn ? this.trTerm(rawLbl) : this._zh(rawLbl);
         const yrTag =
-          st.year < 0 ? (isEn ? `${-st.year} BCE` : `前${-st.year}`) : `${st.year}`;
+          st.year < 0 ? (isEn ? `${-st.year} BCE` : `公元前${-st.year}`) : `${st.year}`;
         lblTxt.textContent =
           isMultiYear && st.year !== undefined ? `${baseLbl} (${yrTag})` : baseLbl;
       });

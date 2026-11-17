@@ -911,7 +911,7 @@ ROUTE_STOPS = {
 }
 
 ROUTES = [
-    dict(key="xenophon_anabasis", kind="route", title="色诺芬《长征记》：万人军撤退（前 401—前 400）",
+    dict(key="xenophon_anabasis", kind="route", title="色诺芬《长征记》：万人军撤退（公元前401—公元前400）",
          span=[-401, -399],
          summary="小居鲁士在库纳克萨战死后，希腊雇佣军万人自美索不达米亚北撤，经亚美尼亚高原抵黑海，"
                  "高呼「塔拉塔！塔拉塔！（海！海！）」，再沿海南下至拜占庭。色诺芬《长征记》(Anabasis) 是第一手记录。",
@@ -920,7 +920,7 @@ ROUTES = [
                     [36.20, 36.85], [42.00, 37.00], [43.30, 34.60], [44.40, 33.31],
                     [42.50, 37.20], [41.27, 39.90], [39.72, 41.00], [35.15, 42.03],
                     [32.49, 37.87], [28.98, 41.01]]]),
-    dict(key="alexander_route", kind="route", title="亚历山大东征路线（前 334—前 323）",
+    dict(key="alexander_route", kind="route", title="亚历山大东征路线（公元前334—公元前323）",
          span=[-334, -323],
          summary="自赫勒斯滂渡海，经特洛伊、格拉尼库斯河、萨第斯、以弗所、米利都、哈利卡纳苏斯，"
                  "北上戈尔迪乌姆斩断“戈尔迪之结”，经安卡拉、奇里乞亚门南下伊苏斯决战，再经叙利亚、埃及至高加米拉灭波斯。",
@@ -960,7 +960,7 @@ ROUTES = [
                     [34.90, 36.92], [36.16, 36.20], [40.23, 37.91], [42.00, 38.40],
                     [43.38, 38.49], [41.27, 39.90], [39.72, 41.00], [38.15, 39.75],
                     [37.02, 39.75], [32.86, 39.93], [28.98, 41.01]]]),
-    dict(key="herodotus", kind="route", title="希罗多德的足迹（约前 450—前 430）",
+    dict(key="herodotus", kind="route", title="希罗多德的足迹（约公元前450—公元前430）",
          span=[-450, -430],
          summary="《历史》作者希罗多德生于哈利卡纳苏斯，据其自述与后世考证，他游历萨摩斯、埃及、"
                  "两河、黑海北岸与希腊本土，最后参与图里伊殖民。书中对吕底亚、波斯行省、"
@@ -1016,7 +1016,7 @@ def build_dynasty():
             phases.append({
                 "until": y,
                 "snap": f"s_{sk}",
-                "overview": f"{y if y > 0 else '前 ' + str(-y)} 年 · {SNAP_CAP[sk]}：{SNAP_NOTE[sk]}",
+                "overview": f"{'公元' + str(y) if y > 0 else '公元前' + str(-y)} 年 · {SNAP_CAP[sk]}：{SNAP_NOTE[sk]}",
             })
         note = next((p["note"] for p in ga.PERIODS if p["key"] == e["content"]), "")
         out.append({

@@ -132,6 +132,7 @@ SPANS = [
     ("本都与卡帕多细亚", "#8f7f4a", ["pontus", "cappadocia"], -1180, -546),
     # 吕底亚 / 米底 / 新巴比伦
     ("吕底亚王国", "#b8892f", ["lydia", "ionia", "mysia", "troad", "phrygia", "caria", "pisidia"], -680, -546),
+    ("埃兰", "#b07a3a", ["iran"], -3200, -660),
     ("米底王国", "#7a5a8a", ["armenia_maj", "armenia_min", "urartu", "iran", "upper_mes"], -678, -549),
     ("古巴比伦", "#9a7a3a", ["iraq"], -1894, -1595),
     ("古巴比伦", "#9a7a3f", ["syria"], -1750, -1595),
@@ -147,8 +148,9 @@ SPANS = [
     ("希腊城邦", "#4f6f8f", ["greece"], -338, -146),
     # 希腊化
     ("马其顿帝国", "#8f6f3f", ["thrace", "troad", "mysia", "ionia", "lydia", "caria", "phrygia",
-                              "bithynia", "paphlagonia", "cappadocia", "lycaonia", "cilicia"],
-     -334, -323),
+                              "bithynia", "paphlagonia", "cappadocia", "lycaonia", "cilicia",
+                              "iran", "iraq", "syria"],
+     -330, -323),
     ("利西马科斯王国", "#8f6f3f", ["thrace", "troad", "mysia", "ionia", "lydia", "phrygia", "bithynia"], -323, -281),
     ("塞琉古王国", "#b8892f", ["cappadocia", "galatia", "lycaonia", "upper_mes", "syria", "iraq",
                               "iran", "cilicia", "hatay", "armenia_maj"], -312, -140),
@@ -165,7 +167,7 @@ SPANS = [
     ("罗马亚细亚行省", "#8f3f3f", ["troad", "mysia", "ionia", "lydia", "caria", "phrygia", "pisidia", "lycia"], -133, 330),
     ("罗马比提尼亚与本都", "#a8452f", ["bithynia", "paphlagonia", "pontus"], -63, 330),
     ("罗马奇里乞亚", "#9a5f4f", ["cilicia", "hatay"], -64, 330),
-    ("罗马帝国（东方行省）", "#8f3f3f", ["cappadocia", "galatia", "lycaonia", "armenia_min", "upper_mes",
+    ("罗马东部行省", "#8f3f3f", ["cappadocia", "galatia", "lycaonia", "armenia_min", "upper_mes",
                                        "thrace", "armenia_maj"], 17, 330),
     ("科马基尼王国", "#7a6a5a", ["upper_mes"], -163, 72),
     ("帕提亚帝国", "#7a5a8a", ["iraq", "iran"], -141, 224),
@@ -181,6 +183,7 @@ SPANS = [
     ("罗姆苏丹国", "#3f8f6a", ["lycaonia", "cappadocia", "galatia", "phrygia", "pisidia", "hatay"], 1077, 1308),
     ("丹麦门德王朝", "#8f6f3f", ["pontus", "armenia_min", "paphlagonia"], 1071, 1178),
     ("拜占庭帝国", "#8f3f6f", ["thrace", "troad", "mysia", "ionia", "lydia", "caria", "lycia", "bithynia"], 1071, 1204),
+    ("花剌子模", "#4f7f8f", ["iran"], 1194, 1231),
     ("花剌子模", "#4f7f8f", ["urartu", "armenia_maj"], 1220, 1231),
     ("尼西亚帝国", "#6f5f8f", ["bithynia", "mysia", "troad", "ionia", "lydia"], 1204, 1261),
     ("特拉比松帝国", "#5f8f9f", ["pontus"], 1204, 1461),
@@ -197,11 +200,14 @@ SPANS = [
     ("艾登与门泰塞贝伊国", "#5f8f8f", ["ionia", "lydia", "caria"], 1300, 1426),
     ("奥斯曼贝伊国", "#a8452f", ["bithynia"], 1299, 1362),
     ("卡迪·布尔汉丁国", "#7a5a8a", ["armenia_min", "cappadocia"], 1381, 1398),
+    ("黑羊王朝", "#5a5a7a", ["iran"], 1375, 1468),
+    ("白羊王朝", "#9a7a5a", ["iran"], 1468, 1508),
     ("白羊王朝", "#9a7a5a", ["upper_mes", "urartu", "armenia_maj"], 1378, 1508),
     ("马木留克王朝", "#7a7a3a", ["syria", "hatay"], 1250, 1517),
     # 奥斯曼
     ("帖木儿帝国", "#7a5a4a", ["cappadocia", "armenia_min", "urartu", "upper_mes", "galatia",
                               "armenia_maj"], 1402, 1404),
+    ("帖木儿帝国", "#7a5a4a", ["iran"], 1381, 1404),
     ("奥斯曼帝国", "#a8452f", ["thrace", "troad", "mysia", "ionia", "lydia", "phrygia", "bithynia",
                               "paphlagonia", "pisidia"], 1362, 1453),
     ("奥斯曼帝国", "#a8452f", ["thrace", "troad", "mysia", "ionia", "lydia", "phrygia", "bithynia",
@@ -216,6 +222,10 @@ SPANS = [
                               "caria", "lycia", "cilicia", "hatay", "armenia_min", "armenia_maj",
                               "urartu", "upper_mes", "syria", "iraq"], 1683, 1922),
     ("萨法维波斯", "#7a5a8a", ["iran", "georgia"], 1501, 1736),
+    ("阿夫沙尔王朝", "#8a6a4a", ["iran"], 1736, 1747),
+    ("赞德王朝", "#8a7a5a", ["iran"], 1747, 1794),
+    ("恺加王朝", "#8a5a6a", ["iran"], 1794, 1925),
+    ("巴列维王朝", "#6a6a8a", ["iran"], 1925, 1935),
     ("俄罗斯帝国", "#5f6f9f", ["georgia", "armenia_maj"], 1801, 1917),
     ("希腊王国", "#4f6f8f", ["greece"], 1832, 1924),
     ("希腊共和国", "#3f5f7f", ["greece"], 1924, 1935),
@@ -441,8 +451,39 @@ def polities_at(year):
     return {k: (v[0], v[2]) for k, v in out.items()}
 
 
+# 同一政权在不同省区的多条规则 → 合并成一条色块与大字标注。
+# 只合并「省区变体」；括号本身是名字一部分的（如「外约旦诸王国（亚扪、摩押、以东）」）不合并。
+MERGE_ALIAS = {
+    "阿契美尼德帝国（埃及行省）": "阿契美尼德帝国",
+    "阿契美尼德帝国（黎凡特）": "阿契美尼德帝国",
+    "新巴比伦（黎凡特）": "新巴比伦",
+    "塞琉古王国（黎凡特）": "塞琉古王国",
+    "马其顿帝国（黎凡特）": "马其顿帝国",
+    "埃及新王国（迦南）": "埃及新王国",
+    "阿拉伯哈里发国（黎凡特）": "阿拉伯哈里发国",
+    "阿拉伯哈里发国（埃及）": "阿拉伯哈里发国",
+    "拜占庭帝国（黎凡特）": "拜占庭帝国",
+    "拜占庭（塞浦路斯）": "拜占庭帝国",
+    "马木留克王朝（黎凡特）": "马木留克王朝",
+    "奥斯曼帝国（埃及行省）": "奥斯曼帝国",
+    "奥斯曼帝国（黎凡特）": "奥斯曼帝国",
+}
+
+
+def merge_variants(pol):
+    """把省区变体并入基名，返回 {显示名: (颜色, [地理区…])}"""
+    out = {}
+    for name, (tint, zones) in pol.items():
+        disp = MERGE_ALIAS.get(name, name)
+        if disp in out:
+            out[disp][1].extend(zones)
+        else:
+            out[disp] = [tint, list(zones)]
+    return {k: (v[0], v[1]) for k, v in out.items()}
+
+
 def build_snapshot(year, key, caption, note):
-    pol = polities_at(year)
+    pol = merge_variants(polities_at(year))
     feats, names = [], []
     for name, (tint, zones) in pol.items():
         geoms = [ZONE_G[z] for z in zones]

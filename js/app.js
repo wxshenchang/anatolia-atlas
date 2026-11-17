@@ -5457,6 +5457,20 @@
         list.innerHTML = '';
         return;
       }
+      // 手机/窄屏默认收起，避免占掉半屏地图；点标题可展开
+      if (this._sourcesCollapsed === undefined) {
+        this._sourcesCollapsed = this._isMobileViewport() || window.innerWidth < 900;
+      }
+      box.classList.toggle('is-collapsed', Boolean(this._sourcesCollapsed));
+      const headEl = this._id('txt-sources-heading');
+      if (headEl && !headEl.dataset.bound) {
+        headEl.dataset.bound = '1';
+        headEl.addEventListener('click', () => {
+          this._sourcesCollapsed = !this._sourcesCollapsed;
+          const b = this._id('sources-section');
+          if (b) b.classList.toggle('is-collapsed', Boolean(this._sourcesCollapsed));
+        });
+      }
       const key = files.join(',');
       if (this._eraSourcesKey === key && list.children.length) {
         box.hidden = false;

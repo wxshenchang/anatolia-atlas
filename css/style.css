@@ -4687,6 +4687,7 @@ html[lang="en"] #act-toggle-pane .tp-label {
   #workspace-body:not(.is-mobile-chronicle-open) #chronicle-pane .milestone-section,
   #workspace-body:not(.is-mobile-chronicle-open) #chronicle-pane .polity-backbar,
   #workspace-body:not(.is-mobile-chronicle-open) #chronicle-pane .polity-extra,
+  #workspace-body:not(.is-mobile-chronicle-open) #chronicle-pane .sources-section,
   #workspace-body:not(.is-mobile-chronicle-open) #chronicle-pane .disclaimer-box {
     display: none;
   }
@@ -6161,8 +6162,19 @@ button.story-inline-person:hover {
 /* 宗教分期标注 */
 .politic-religion-meta { color: #93826d; font-size: 10.5px; }
 .sources-section { margin-top: 14px; padding-top: 10px; border-top: 1px dashed rgba(147, 130, 109, 0.4); }
-.sources-section h3 { font-size: 12px; color: #8a7a66; letter-spacing: 0.08em; margin: 0 0 6px; }
+.sources-section h3 {
+  font-size: 12px; color: #8a7a66; letter-spacing: 0.08em; margin: 0 0 6px;
+  display: flex; align-items: center; gap: 6px; cursor: pointer; user-select: none;
+}
+.sources-section h3::after { content: '▾'; font-size: 10px; opacity: 0.7; }
+.sources-section.is-collapsed h3 { margin-bottom: 0; }
+.sources-section.is-collapsed h3::after { content: '▸'; }
+.sources-section.is-collapsed .source-list { display: none; }
 .source-list { list-style: none; margin: 0; padding: 0; max-height: 132px; overflow-y: auto; }
+@media (max-width: 760px) {
+  .sources-section { margin-top: 10px; padding-top: 8px; }
+  .source-list { max-height: 84px; }
+}
 .source-list li { font-size: 11px; line-height: 1.5; color: #7d7060; padding: 2px 0 2px 10px; position: relative; }
 .source-list li::before { content: '·'; position: absolute; left: 2px; color: #b3a894; }
 .source-list li.source-loading { color: #a3968a; font-style: italic; }

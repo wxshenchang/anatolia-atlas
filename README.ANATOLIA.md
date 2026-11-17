@@ -190,7 +190,11 @@ Cahen《前奥斯曼土耳其》、Peacock《大塞尔柱帝国》、《剑桥�
 11. **图外事件**：维也纳、塞夫勒、开罗、卡尔洛维茨等 13 条事件发生地在投影范围（24–48°E / 33.5–44.5°N）之外，
     浮签会被画到画布外。`_getMilestoneAnchors` 用 `_inMapBounds` 判定后，把锚点换成**当时的都城**（`_capitalAnchor`），
     并在浮签头部标注「图外 · 真实地点 → 都城 X」；地点 pill 仍保留真实地名，点地溯源照常可用。
-12. **每个政权必须有三件事**：成立年 / 灭亡年（`from`/`to`）、简介（`intro`）、依据（`source`），
+12. **手机端新增侧栏区块必须同时加进「抽屉收起时隐藏」的选择器列表**：
+    `css/style.css` 里 `#workspace-body:not(.is-mobile-chronicle-open) #chronicle-pane .xxx { display:none }` 这一组。
+    曾经漏了 `.sources-section`，结果手机上收起抽屉后「史料来源」仍然显示，把地图下半屏整块挡住。
+    新加的侧栏块（书目、区间说明、图例等）默认做成可折叠，窄屏 `max-height` 收窄，别让它吃屏幕。
+13. **每个政权必须有三件事**：成立年 / 灭亡年（`from`/`to`）、简介（`intro`）、依据（`source`），
     数据放在 `_build/data_polity_info.py`，由 `gen_lore.py` 读入写成 `js/lore_core.js` 的 `POLITY_INFO`；
     面板里按「存续 → 简介 → 宗教 → 疆域」四行显示。**新增政权时三处都要加**：`gen_atlas2.SPANS`（图上色块）、
     `data_polity_info`（档案）、`gen_lore.RELIGION_SPANS`（宗教），否则会出现「有色块但点开没有介绍」。

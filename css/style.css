@@ -12,9 +12,11 @@
   --hairline: rgba(43, 38, 34, 0.12);
   --card-shadow: 0 10px 30px rgba(43, 38, 34, 0.14), 0 1px 2px rgba(43, 38, 34, 0.08);
   --corner-radius: 14px;
-  --serif-stack: 'Noto Serif SC', 'Songti SC', 'SimSun', serif;
-  --sans-stack: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  --calligraphy-stack: 'Ma Shan Zheng', 'STKaiti', 'KaiTi', var(--serif-stack);
+  /* 只依赖系统中文字体：国内不翻墙也不会掉字/混排，跨平台观感一致 */
+  --serif-stack: 'Source Han Serif SC', 'Noto Serif CJK SC', 'Songti SC', 'STSong', 'SimSun', serif;
+  --sans-stack: 'PingFang SC', 'HarmonyOS Sans SC', 'MiSans', 'Source Han Sans SC',
+    'Noto Sans CJK SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+  --calligraphy-stack: 'STKaiti', 'KaiTi', var(--serif-stack);
   --dynasty-accent: #3a3733;
 }
 
@@ -29,6 +31,11 @@ body {
 }
 
 body {
+  /* 中文断行：行首行尾禁则 + 不硬拆专名，避免「国际」被拆成两行 */
+  line-break: strict;
+  word-break: normal;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
   font-family: var(--sans-stack);
   color: var(--text-main);
   background:
@@ -100,9 +107,10 @@ h2 {
 }
 
 .brand-group .seal-mark {
-  font-family: var(--calligraphy-stack);
+  font-family: var(--serif-stack);
+  letter-spacing: 0.08em;
   font-size: 27px;
-  font-weight: 400;
+  font-weight: 600;
   color: var(--vermilion);
   line-height: 1;
 }
@@ -538,9 +546,7 @@ h2 {
 #atlas-svg {
   /* Keep map glyphs on local fonts: resizing SVG text backed by the segmented
      CJK web fonts is expensive in Chrome. UI/chronicle fonts stay unchanged. */
-  --serif-stack: 'Songti SC', 'SimSun', serif;
-  --sans-stack: 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  --calligraphy-stack: 'STKaiti', 'KaiTi', var(--serif-stack);
+  /* 窄屏不再覆盖字体栈，保持与桌面一致 */
   font-family: var(--serif-stack);
   text-rendering: geometricPrecision;
   width: 100%;
@@ -713,6 +719,7 @@ h2 {
 .hydro-label {
   font-family: var(--serif-stack);
   font-style: italic;
+  stroke-width: 2.1;
   fill: rgba(20, 76, 108, 0.92);
   text-anchor: middle;
   dominant-baseline: central;
@@ -1982,6 +1989,13 @@ h2 {
   align-items: center;
   gap: 6px;
   color: var(--text-secondary);
+  /* 图例中的政权名与地图上的政权大字同属「宋体系」，读起来是一套字 */
+  font-family: var(--serif-stack);
+  font-weight: 500;
+  font-size: 12.5px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  white-space: nowrap;      /* 政权名整条显示，不拆成两行 */
 }
 
 .key-note {
@@ -2679,9 +2693,10 @@ h2 {
 }
 
 #dynasty-title {
-  font-family: var(--calligraphy-stack);
+  font-family: var(--serif-stack);
+  letter-spacing: 0.06em;
   font-size: 38px;
-  font-weight: 400;
+  font-weight: 600;
   color: var(--dynasty-accent);
   line-height: 1.05;
 }
@@ -2712,9 +2727,10 @@ h2 {
 .dynasty-desc {
   margin: 0;
   font-size: 13.5px;
-  line-height: 1.7;
+  line-height: 1.82;
   color: var(--text-main);
   font-family: var(--serif-stack);
+  text-wrap: pretty;
 }
 
 .milestone-section h3 {
@@ -2739,6 +2755,10 @@ h2 {
   grid-template-columns: 74px 1fr;
   gap: 8px;
   font-size: 12.5px;
+  line-height: 1.62;
+  text-wrap: pretty;
+  word-break: keep-all;      /* 不把「拉美西斯二世」「国际和约」拆开 */
+  overflow-wrap: anywhere;   /* 万一行宽不够，允许在词内兜底换行 */
   padding: 6px 8px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.55);

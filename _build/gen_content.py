@@ -147,7 +147,7 @@ MILESTONE_DETAIL = {
   "《剑桥古代史》卷 II.2"
  ],
  "post_hittite:-1180": [
-  "赫梯中央政权消失后，安纳托利亚不再有单一强权：东南部由卢维人的「新赫梯」城邦（卡赫美士、马尔丁）延续赫梯文化，中西部为弗里吉亚人，东部高原为乌拉尔图与亚美尼亚部落。这段空白期主要靠考古地层而非文献复原。",
+  "赫梯中央政权消失后，安纳托利亚不再有单一强权：东南部由卢维人的「新赫梯」城邦（卡赫美什、马尔丁）延续赫梯文化，中西部为弗里吉亚人，东部高原为乌拉尔图与亚美尼亚部落。这段空白期主要靠考古地层而非文献复原。",
   "Bryce《新赫梯诸王国》"
  ],
  "post_hittite:-900": [
@@ -159,7 +159,7 @@ MILESTONE_DETAIL = {
   "戈尔迪乌姆发掘报告"
  ],
  "post_hittite:-717": [
-  "亚述国王萨尔贡二世攻陷卡赫美士，终结最后一个重要的新赫梯城邦。亚述把东南安纳托利亚划为行省，赫梯-卢维的书吏与艺术传统随之被亚述吸收。萨爾贡二世随后建都杜尔-沙鲁金（今霍尔萨巴德）。",
+  "亚述国王萨尔贡二世攻陷卡赫美什，终结最后一个重要的新赫梯城邦。亚述把东南安纳托利亚划为行省，赫梯-卢维的书吏与艺术传统随之被亚述吸收。萨爾贡二世随后建都杜尔-沙鲁金（今霍尔萨巴德）。",
   "《剑桥古代史》卷 III.1"
  ],
  "post_hittite:-696": [
@@ -247,7 +247,7 @@ MILESTONE_DETAIL = {
   "斯特拉波 xiv / 罗马史学家"
  ],
  "roman_empire:114": [
-  "图拉真东征帕提亚，攻陷泰西封，短暂设立亚美尼亚与美索不达米亚两行省，帝国东部抵达波斯湾。这是罗马版图的最大范围，但图拉真死后即被放弃。",
+  "图拉真东征安息，攻陷泰西封，短暂设立亚美尼亚与美索不达米亚两行省，帝国东部抵达波斯湾。这是罗马版图的最大范围，但图拉真死后即被放弃。",
   "狄奥·卡西乌斯 lxviii"
  ],
  "roman_empire:117": [
@@ -307,11 +307,11 @@ MILESTONE_DETAIL = {
   "《剑桥土耳其史》卷 i"
  ],
  "mongol:1243": [
-  "克塞山之战后，罗姆苏丹国的外交、军事与征税权均受伊儿汗监督，苏丹由蒙古册立。1260/1277 年马木留克反攻与蒙古内乱使安纳托利亚成为代理战场。",
+  "克塞山之战后，罗姆苏丹国的外交、军事与征税权均受伊儿汗监督，苏丹由蒙古册立。1260/1277 年马穆鲁克反攻与蒙古内乱使安纳托利亚成为代理战场。",
   "Peacock《大塞尔柱帝国》"
  ],
  "mongol:1277": [
-  "马木留克苏丹拜巴尔斯在埃尔比斯坦击败蒙古军，短暂介入安纳托利亚；此后蒙古加重税赋与行政直辖，土库曼贝伊与游牧部众向西北边境迁移，奥斯曼等贝伊国由此成形。",
+  "马穆鲁克苏丹拜巴尔斯在埃尔比斯坦击败蒙古军，短暂介入安纳托利亚；此后蒙古加重税赋与行政直辖，土库曼贝伊与游牧部众向西北边境迁移，奥斯曼等贝伊国由此成形。",
   "拜巴尔斯传 / 伊儿汗史料"
  ],
  "mongol:1299": [
@@ -351,7 +351,7 @@ MILESTONE_DETAIL = {
   "奥斯曼编年史 / 萨法维史料"
  ],
  "ottoman:1517": [
-  "塞利姆一世南下击败马木留克，取叙利亚、埃及与希贾兹，并取得麦加谢里夫的效忠与「哈里发」名分。帝国由此获得伊斯兰圣地的监护权与红海贸易。",
+  "塞利姆一世南下击败马穆鲁克，取叙利亚、埃及与希贾兹，并取得麦加谢里夫的效忠与「哈里发」名分。帝国由此获得伊斯兰圣地的监护权与红海贸易。",
   "奥斯曼编年史"
  ],
  "ottoman:1529": [
@@ -447,7 +447,7 @@ CONTENT = [
              dict(ancient="巴比伦", modern="巴比伦遗址（伊拉克）", coord=[44.42, 32.54], remark="前 18 世纪起为巴比伦尼亚核心"),
              dict(ancient="孟菲斯", modern="孟菲斯遗址（埃及）", coord=[31.25, 29.85], remark="埃及早王朝首都"),
              dict(ancient="比布鲁斯", modern="朱拜勒（黎巴嫩）", coord=[35.65, 34.12], remark="腓尼基最古老的港口，木材转口"),
-             dict(ancient="埃勃拉", modern="特尔马尔迪赫（叙利亚）", coord=[36.80, 35.80], remark="前 3 千年的叙利亚商队王国"),
+             dict(ancient="埃布拉", modern="特尔马尔迪赫（叙利亚）", coord=[36.80, 35.80], remark="前 3 千年的叙利亚商队王国"),
              dict(ancient="哈图沙", modern="博阿兹卡莱", coord=[34.62, 40.02], remark="前 17 世纪成为赫梯都城"),
          ]),
     dict(key="hittite",
@@ -463,7 +463,7 @@ CONTENT = [
              dict(ancient="巴比伦", modern="巴比伦遗址（伊拉克）", coord=[44.42, 32.54], remark="古巴比伦都城，前 1595 年被赫梯攻陷"),
              dict(ancient="沙皮努瓦", modern="舒沙特（Çorum）", coord=[34.95, 40.55], isCapital=False, remark="赫梯宗教中心"),
              dict(ancient="内萨", modern="屈尔泰佩", coord=[35.48, 38.73], isCapital=False, remark="早期赫梯/亚述商馆"),
-             dict(ancient="卡涅什", modern="屈尔泰佩", coord=[35.48, 38.73], isCapital=False),
+             dict(ancient="卡尼什", modern="屈尔泰佩", coord=[35.48, 38.73], isCapital=False),
              dict(ancient="阿尔扎瓦", modern="以弗所一带", coord=[27.34, 37.94], isCapital=False, remark="赫梯文献中的西部同盟"),
              dict(ancient="米拉", modern="米拉斯", coord=[27.78, 37.31], isCapital=False),
              dict(ancient="塔尔胡恩塔萨", modern="卡拉曼马拉什", coord=[36.93, 37.58], isCapital=False),
@@ -474,13 +474,13 @@ CONTENT = [
              dict(year=-1180, headline="帝国崩溃，安纳托利亚进入多中心时代", site="哈图沙", coord=[34.62, 40.02]),
              dict(year=-900, headline="乌拉尔图以图什帕（凡城）为都，与亚述争雄", site="图什帕", coord=[43.38, 38.49]),
              dict(year=-800, headline="弗里吉亚戈尔迪乌姆的迈达斯王，与希腊德尔斐神谕相关", site="戈尔迪乌姆", coord=[31.98, 39.65]),
-             dict(year=-717, headline="亚述萨尔贡二世灭卡赫美士，新赫梯诸邦终", site="卡赫美士", coord=[38.02, 36.83]),
+             dict(year=-717, headline="亚述萨尔贡二世灭卡赫美什，新赫梯诸邦终", site="卡赫美什", coord=[38.02, 36.83]),
              dict(year=-696, headline="辛梅里安人攻灭弗里吉亚", site="戈尔迪乌姆", coord=[31.98, 39.65]),
          ],
          settlements=[
              dict(ancient="戈尔迪乌姆", modern="波拉特勒", coord=[31.98, 39.65], isCapital=True, remark="弗里吉亚都城"),
              dict(ancient="图什帕", modern="凡城", coord=[43.38, 38.49], isCapital=True, remark="乌拉尔图都城"),
-             dict(ancient="卡赫美士", modern="杰拉布卢斯", coord=[38.02, 36.83], isCapital=False),
+             dict(ancient="卡赫美什", modern="杰拉布卢斯", coord=[38.02, 36.83], isCapital=False),
              dict(ancient="马尔丁", modern="马尔丁", coord=[40.74, 37.31], isCapital=False),
              dict(ancient="米利都", modern="巴拉特", coord=[27.28, 37.53], isCapital=False, remark="爱奥尼亚希腊城邦"),
              dict(ancient="士麦那", modern="伊兹密尔", coord=[27.14, 38.42], isCapital=False),
@@ -603,7 +603,7 @@ CONTENT = [
              dict(ancient="安基拉", modern="安卡拉", coord=[32.86, 39.93], isCapital=False),
              dict(ancient="塞琉西亚", modern="锡利夫凯", coord=[33.93, 36.38], isCapital=False),
              dict(ancient="阿尼", modern="阿尼（卡尔斯）", coord=[43.57, 40.51], isCapital=False, remark="亚美尼亚巴格拉图尼王朝都城"),
-             dict(ancient="特拉比松", modern="特拉布宗", coord=[39.72, 41.00], isCapital=False),
+             dict(ancient="特拉布宗", modern="特拉布宗", coord=[39.72, 41.00], isCapital=False),
              dict(ancient="阿塔利亚", modern="安塔利亚", coord=[30.70, 36.89], isCapital=False),
          ]),
     dict(key="seljuk",
@@ -616,9 +616,9 @@ CONTENT = [
          ],
          settlements=[
              dict(ancient="科尼亚（伊科尼翁）", modern="科尼亚", coord=[32.49, 37.87], isCapital=True, remark="罗姆苏丹国都城，鲁米陵墓"),
-             dict(ancient="锡瓦斯", modern="锡瓦斯", coord=[37.02, 39.75], isCapital=False, remark="丹麦门德王朝都城"),
+             dict(ancient="锡瓦斯", modern="锡瓦斯", coord=[37.02, 39.75], isCapital=False, remark="达尼什曼德王朝都城"),
              dict(ancient="尼西亚", modern="伊兹尼克", coord=[29.72, 40.43], isCapital=False, remark="1097—1261 尼西亚帝国都城"),
-             dict(ancient="特拉比松", modern="特拉布宗", coord=[39.72, 41.00], isCapital=False, remark="1204 年特拉比松帝国建立"),
+             dict(ancient="特拉布宗", modern="特拉布宗", coord=[39.72, 41.00], isCapital=False, remark="1204 年特拉布宗帝国建立"),
              dict(ancient="开塞利", modern="开塞利", coord=[35.49, 38.73], isCapital=False),
              dict(ancient="阿拉尼亚", modern="阿拉尼亚", coord=[32.00, 36.54], isCapital=False, remark="基利杰阿尔斯兰二世夏宫"),
              dict(ancient="狄夫里吉", modern="迪夫里伊", coord=[38.11, 39.37], isCapital=False, remark="1228 年大清真寺与医院，世界遗产"),
@@ -626,7 +626,7 @@ CONTENT = [
     dict(key="mongol",
          milestones=[
              dict(year=1243, headline="克塞山之战后罗姆苏丹国成为伊儿汗国藩属", site="克塞山", coord=[38.60, 40.05]),
-             dict(year=1277, headline="马木留克苏丹拜巴尔斯介入安纳托利亚", site="埃尔比斯坦", coord=[37.20, 38.20]),
+             dict(year=1277, headline="马穆鲁克苏丹拜巴尔斯介入安纳托利亚", site="埃尔比斯坦", coord=[37.20, 38.20]),
              dict(year=1299, headline="奥斯曼一世在瑟于特建立贝伊国", site="瑟于特", coord=[30.18, 40.02]),
              dict(year=1300, headline="安纳托利亚诸贝伊国并立", site="卡拉曼", coord=[33.22, 37.18]),
          ],
@@ -660,7 +660,7 @@ CONTENT = [
          milestones=[
              dict(year=1453, headline="攻陷君士坦丁堡，拜占庭帝国终结", site="伊斯坦布尔", coord=[28.98, 41.01]),
              dict(year=1514, headline="查尔迪兰之战：塞利姆一世击败萨法维", site="查尔迪兰", coord=[44.09, 39.19]),
-             dict(year=1517, headline="灭马木留克，取叙利亚与埃及", site="开罗", coord=[31.24, 30.04]),
+             dict(year=1517, headline="灭马穆鲁克，取叙利亚与埃及", site="开罗", coord=[31.24, 30.04]),
              dict(year=1529, headline="苏莱曼一世首次围攻维也纳", site="维也纳", coord=[16.37, 48.21]),
              dict(year=1571, headline="勒班陀海战：奥斯曼舰队受挫", site="勒班陀", coord=[21.42, 38.42]),
          ],
@@ -712,7 +712,7 @@ CONTENT = [
 
 PERIODS_META = {
     "hittite": ("赫梯帝国", "赫梯", -1650, -1180, -1350, "#a8452f", "哈图沙（博阿兹卡莱）"),
-    "post_hittite": ("后赫梯时代", "铁器早期", -1180, -700, -900, "#8a5a2b", "戈尔迪乌姆 · 图什帕 · 卡赫美士"),
+    "post_hittite": ("后赫梯时代", "铁器早期", -1180, -700, -900, "#8a5a2b", "戈尔迪乌姆 · 图什帕 · 卡赫美什"),
     "lydia": ("吕底亚与东方诸国", "吕底亚", -700, -547, -600, "#b8892f", "萨第斯"),
     "achaemenid": ("阿契美尼德波斯", "波斯行省", -547, -334, -450, "#9a5f8f", "萨尔迪斯 · 达斯基雷翁"),
     "diadochi": ("继业者战争", "继业者", -334, -281, -310, "#8f6f3f", "吕西马基亚 · 安条克"),
@@ -1136,12 +1136,12 @@ EXTRA_MILESTONES = {
   {
    "year": 251,
    "headline": "哥特人袭掠黑海南岸",
-   "site": "特拉比松",
+   "site": "特拉布宗",
    "coord": [
     39.72,
     41.0
    ],
-   "detail": "哥特人自黑海北岸渡海袭掠本都与卡帕多细亚，焚毁神庙与城市，暴露三世纪危机中的海防漏洞；特拉比松此后加筑城墙。",
+   "detail": "哥特人自黑海北岸渡海袭掠本都与卡帕多细亚，焚毁神庙与城市，暴露三世纪危机中的海防漏洞；特拉布宗此后加筑城墙。",
    "source": "佐西莫斯 i.32"
   },
   {
@@ -1279,7 +1279,7 @@ EXTRA_MILESTONES = {
     33.22,
     37.18
    ],
-   "detail": "蒙古与马木留克的拉锯迫使游牧部众向西北迁移，卡拉曼、奥斯曼等贝伊国在拜占庭边境成形，安纳托利亚的人口与族群结构被重塑。",
+   "detail": "蒙古与马穆鲁克的拉锯迫使游牧部众向西北迁移，卡拉曼、奥斯曼等贝伊国在拜占庭边境成形，安纳托利亚的人口与族群结构被重塑。",
    "source": "贝伊国研究（Zachariadou 等）"
   },
   {
@@ -1332,13 +1332,13 @@ EXTRA_MILESTONES = {
  "ottoman": [
   {
    "year": 1461,
-   "headline": "特拉比松帝国灭亡",
+   "headline": "特拉布宗帝国灭亡",
    "site": "特拉布宗",
    "coord": [
     39.72,
     41.0
    ],
-   "detail": "穆罕默德二世吞并特拉比松帝国，黑海南岸归入奥斯曼，黑海成为「内湖」，热那亚与威尼斯的黑海殖民地随之终结。",
+   "detail": "穆罕默德二世吞并特拉布宗帝国，黑海南岸归入奥斯曼，黑海成为「内湖」，热那亚与威尼斯的黑海殖民地随之终结。",
    "source": "Kritovoulos《穆罕默德二世史》"
   },
   {
@@ -1523,7 +1523,7 @@ EXTRA_MILESTONES_2 = {
   {
    "year": -1000,
    "headline": "铁器技术随帝国崩溃扩散",
-   "site": "卡赫美士",
+   "site": "卡赫美什",
    "coord": [
     38.02,
     36.83
@@ -1861,7 +1861,7 @@ EXTRA_MILESTONES_2 = {
     35.32,
     37.0
    ],
-   "detail": "曼努埃尔一世迫使罗姆苏丹称臣、奇里乞亚亚美尼亚割地，短暂恢复拜占庭在东南的宗主权；但其后继者无力维持。",
+   "detail": "曼努埃尔一世迫使罗姆苏丹称臣、奇里乞亚亚美尼亚王国割地，短暂恢复拜占庭在东南的宗主权；但其后继者无力维持。",
    "source": "Choniates《历史》"
   },
   {
@@ -1953,7 +1953,7 @@ EXTRA_MILESTONES_2 = {
     37.02,
     39.75
    ],
-   "detail": "帖木儿攻掠锡瓦斯并屠守军，随后南下叙利亚击溃马木留克；安纳托利亚的贝伊国格局被重新洗牌，为安卡拉之战铺路。",
+   "detail": "帖木儿攻掠锡瓦斯并屠守军，随后南下叙利亚击溃马穆鲁克；安纳托利亚的贝伊国格局被重新洗牌，为安卡拉之战铺路。",
    "source": "帖木儿史料 / 伊本·阿拉布沙"
   }
  ],
@@ -2107,7 +2107,7 @@ EXTRA_SETTLEMENTS = {
         dict(ancient="乌尔", modern="乌尔遗址（伊拉克）", coord=[46.10, 30.96], remark="两河南部圣城"),
     ],
     "post_hittite": [
-        dict(ancient="大马士革", modern="大马士革（叙利亚）", coord=[36.29, 33.51], remark="阿拉米大马士革王国都城"),
+        dict(ancient="大马士革", modern="大马士革（叙利亚）", coord=[36.29, 33.51], remark="亚兰-大马士革王国都城"),
         dict(ancient="推罗", modern="苏尔（黎巴嫩）", coord=[35.20, 33.27], remark="腓尼基殖民母邦，前 9 世纪建立迦太基"),
         dict(ancient="尼尼微", modern="摩苏尔附近（伊拉克）", coord=[43.15, 36.36], remark="亚述帝国晚期都城"),
     ],
@@ -2152,12 +2152,12 @@ EXTRA_SETTLEMENTS = {
         dict(ancient="阿勒颇", modern="阿勒颇（叙利亚）", coord=[37.16, 36.20], remark="赞吉王朝重镇，与十字军反复易手"),
     ],
     "mongol": [
-        dict(ancient="开罗", modern="开罗（埃及）", coord=[31.24, 30.04], remark="马木留克苏丹国首都，1260 年艾因贾鲁特阻击蒙古"),
-        dict(ancient="大马士革", modern="大马士革（叙利亚）", coord=[36.29, 33.51], remark="马木留克叙利亚首府"),
+        dict(ancient="开罗", modern="开罗（埃及）", coord=[31.24, 30.04], remark="马穆鲁克苏丹国首都，1260 年艾因贾鲁特阻击蒙古"),
+        dict(ancient="大马士革", modern="大马士革（叙利亚）", coord=[36.29, 33.51], remark="马穆鲁克叙利亚首府"),
         dict(ancient="耶路撒冷", modern="耶路撒冷", coord=[35.23, 31.78], remark="1291 年阿卡陷落后十字军彻底退出黎凡特"),
     ],
     "ottoman": [
-        dict(ancient="开罗", modern="开罗（埃及）", coord=[31.24, 30.04], remark="1517 年塞利姆一世灭马木留克，设埃及行省"),
+        dict(ancient="开罗", modern="开罗（埃及）", coord=[31.24, 30.04], remark="1517 年塞利姆一世灭马穆鲁克，设埃及行省"),
         dict(ancient="大马士革", modern="大马士革（叙利亚）", coord=[36.29, 33.51], remark="奥斯曼叙利亚行省首府，朝觐队伍集结点"),
         dict(ancient="耶路撒冷", modern="耶路撒冷", coord=[35.23, 31.78], remark="奥斯曼耶路撒冷桑贾克，苏莱曼重修城墙"),
         dict(ancient="亚历山大港", modern="亚历山大（埃及）", coord=[29.92, 31.20], remark="奥斯曼海军基地，1798 年拿破仑登陆"),
@@ -2185,8 +2185,8 @@ _extra_settle_merged = False
 SITE_SOURCE = {
     "哈图沙": "Boğazköy（哈图沙）发掘报告 / Bryce《赫梯王国》",
     "沙皮努瓦": "Boğazköy 档案与 Kayalıpınar 发掘 / Bryce",
-    "内萨": "Kültepe（卡涅什）发掘报告（Tahsin Özgüç）",
-    "卡涅什": "Kültepe 亚述商馆档案（TC III）/ Özgüç",
+    "内萨": "Kültepe（卡尼什）发掘报告（Tahsin Özgüç）",
+    "卡尼什": "Kültepe 亚述商馆档案（TC III）/ Özgüç",
     "塔尔胡恩塔萨": "Yalburt 与 Gavurkale 铭文 / Bryce",
     "戈尔迪乌姆": "Gordion 发掘报告（宾夕法尼亚大学）/《剑桥古代史》卷 3",
     "萨第斯": "Sardis 发掘报告（哈佛—康奈尔）/ 希罗多德 i",
@@ -2195,13 +2195,13 @@ SITE_SOURCE = {
     "帕加马": "Altertümer von Pergamon 系列 / Hansen《阿塔罗斯王朝的帕加马》",
     "特洛伊": "Troia 发掘报告（Korfmann）/ 荷马《伊利亚特》",
     "图什帕": "凡城城堡与 Kef Kalesi 铭文 / Zimansky《古代乌拉尔图》",
-    "卡赫美士": "Carchemish 发掘报告（Hogarth/Woolley）/ Bryce",
+    "卡赫美什": "Carchemish 发掘报告（Hogarth/Woolley）/ Bryce",
     "尼尼微": "Nineveh 发掘报告（Layard 等）/《剑桥古代史》卷 3",
     "巴比伦": "Babylon 发掘（Koldewey）/ 汉谟拉比法典石碑",
     "乌鲁克": "Uruk-Warka 发掘报告（德国考古研究所）",
     "乌尔": "Woolley《Ur Excavations》卷 2 / 乌尔纳姆法典",
     "尼普尔": "Nippur 发掘报告（宾夕法尼亚大学）",
-    "埃勃拉": "Ebla 档案（Matthiah 等）/ 罗马大学发掘报告",
+    "埃布拉": "Ebla 档案（Matthiah 等）/ 罗马大学发掘报告",
     "马里": "Mari 王宫档案（ARM 系列）/ Parrot 发掘报告",
     "开罗": "《剑桥埃及史》/ Ibn Iyas《历代奇事》",
     "孟菲斯": "Memphis 发掘报告（埃及文物最高委员会）",
@@ -2215,7 +2215,7 @@ SITE_SOURCE = {
     "西顿": "《剑桥古代史》卷 4 / Eshmunazar 石棺铭文",
     "尼科米底亚": "《剑桥古代史》卷 8 / TIB（Bithynia）",
     "尼西亚": "Akropolites《编年史》/ TIB",
-    "特拉比松": "Ostrogorsky / Bryer《特拉比松帝国》",
+    "特拉布宗": "Ostrogorsky / Bryer《特拉布宗帝国》",
     "科尼亚": "Ibn Bibi《塞尔柱史》/ Cahen",
     "锡瓦斯": "《剑桥土耳其史》/ Evliya Çelebi《游记》",
     "安卡拉": "Zürcher《现代土耳其史》/ Evliya Çelebi",

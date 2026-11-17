@@ -3,15 +3,15 @@
   "license": "Approximate historical boundaries for illustration, not surveyed borders. When reusing, credit Jiangshan Atlas (https://github.com/DeanChensj/jiangshan-map) and the sources in data/atlas/README.md. Prefecture-level (郡/州/府) boundaries derive from CHGIS V6 and the Hartwell China Historical GIS: academic, non-commercial use only; do not redistribute; not licensed under GPL-3.0.",
   "snapshot": {
     "caption": "200 年 · 塞维鲁时代",
-    "note": "帕提亚转萨珊，东方边境压力上升，军团驻防加重。",
+    "note": "安息转萨珊，东方边境压力上升，军团驻防加重。",
     "polities": [
-      "罗马行省·塞浦路斯",
+      "罗马塞浦路斯行省",
       "亚美尼亚王国",
       "罗马亚细亚行省",
       "罗马比提尼亚与本都",
       "罗马奇里乞亚",
-      "罗马东部行省",
-      "帕提亚帝国",
+      "罗马东方行省",
+      "安息帝国",
       "罗马埃及行省",
       "罗马犹太行省",
       "罗马叙利亚行省"
@@ -21,9 +21,9 @@
   "features": [
     {
       "type": "Feature",
-      "id": "罗马行省·塞浦路斯",
+      "id": "罗马塞浦路斯行省",
       "properties": {
-        "title": "罗马行省·塞浦路斯",
+        "title": "罗马塞浦路斯行省",
         "role": "main",
         "tint": "#8f3f3f",
         "anchor": [32.98, 34.91]
@@ -2974,9 +2974,9 @@
     },
     {
       "type": "Feature",
-      "id": "罗马东部行省",
+      "id": "罗马东方行省",
       "properties": {
-        "title": "罗马东部行省",
+        "title": "罗马东方行省",
         "role": "rival",
         "tint": "#8f3f3f",
         "anchor": [34.63, 38.88]
@@ -3873,9 +3873,9 @@
     },
     {
       "type": "Feature",
-      "id": "帕提亚帝国",
+      "id": "安息帝国",
       "properties": {
-        "title": "帕提亚帝国",
+        "title": "安息帝国",
         "role": "rival",
         "tint": "#7a5a8a",
         "anchor": [49.89, 32.41]

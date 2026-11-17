@@ -45,7 +45,7 @@ ERAS = [
                "hittite_twilight",
                "bronze_collapse"]),
     dict(key="post_hittite", title="铁器早期", badge="黑暗时代", fromYear=-1180, toYear=-660, focusYear=-900,
-         tint="#8a5a2b", seat="戈尔迪乌姆 · 图什帕 · 卡赫美士", content="post_hittite",
+         tint="#8a5a2b", seat="戈尔迪乌姆 · 图什帕 · 卡赫美什", content="post_hittite",
          snaps=["post_collapse",
                "dark_age",
                "phrygia_rise",
@@ -904,7 +904,7 @@ ROUTE_STOPS = {
     41.0
    ],
    "year": 1300,
-   "note": "黑海港口，接高加索与北方草原商路，特拉比松帝国税源。",
+   "note": "黑海港口，接高加索与北方草原商路，特拉布宗帝国税源。",
    "source": "拜占庭黑海贸易研究"
   }
  ]

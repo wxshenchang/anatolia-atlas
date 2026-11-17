@@ -3,10 +3,10 @@
   "license": "Approximate historical boundaries for illustration, not surveyed borders. When reusing, credit Jiangshan Atlas (https://github.com/DeanChensj/jiangshan-map) and the sources in data/atlas/README.md. Prefecture-level (郡/州/府) boundaries derive from CHGIS V6 and the Hartwell China Historical GIS: academic, non-commercial use only; do not redistribute; not licensed under GPL-3.0.",
   "snapshot": {
     "caption": "1517 年 · 塞利姆一世东征",
-    "note": "查尔迪兰击败萨法维，灭马木留克取叙利亚与埃及。",
+    "note": "查尔迪兰击败萨法维，灭马穆鲁克取叙利亚与埃及。",
     "polities": [
       "威尼斯共和国",
-      "马木留克王朝",
+      "马穆鲁克王朝",
       "奥斯曼帝国",
       "萨法维波斯"
     ],
@@ -201,9 +201,9 @@
     },
     {
       "type": "Feature",
-      "id": "马木留克王朝",
+      "id": "马穆鲁克王朝",
       "properties": {
-        "title": "马木留克王朝",
+        "title": "马穆鲁克王朝",
         "role": "rival",
         "tint": "#7a7a3a",
         "anchor": [28.61, 29.65]

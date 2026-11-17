@@ -3,14 +3,14 @@
   "license": "Approximate historical boundaries for illustration, not surveyed borders. When reusing, credit Jiangshan Atlas (https://github.com/DeanChensj/jiangshan-map) and the sources in data/atlas/README.md. Prefecture-level (郡/州/府) boundaries derive from CHGIS V6 and the Hartwell China Historical GIS: academic, non-commercial use only; do not redistribute; not licensed under GPL-3.0.",
   "snapshot": {
     "caption": "1204 年 · 第四次十字军",
-    "note": "君士坦丁堡陷落，尼西亚帝国、特拉比松帝国与拉丁帝国并立。",
+    "note": "君士坦丁堡陷落，尼西亚帝国、特拉布宗帝国与拉丁帝国并立。",
     "polities": [
-      "卢西尼昂塞浦路斯",
+      "吕西尼昂塞浦路斯",
       "罗姆苏丹国",
       "拜占庭帝国",
       "花剌子模",
-      "特拉比松帝国",
-      "奇里乞亚亚美尼亚",
+      "特拉布宗帝国",
+      "奇里乞亚亚美尼亚王国",
       "阿尤布王朝",
       "耶路撒冷王国"
     ],
@@ -19,9 +19,9 @@
   "features": [
     {
       "type": "Feature",
-      "id": "卢西尼昂塞浦路斯",
+      "id": "吕西尼昂塞浦路斯",
       "properties": {
-        "title": "卢西尼昂塞浦路斯",
+        "title": "吕西尼昂塞浦路斯",
         "role": "main",
         "tint": "#b8892f",
         "anchor": [32.98, 34.91]
@@ -3714,9 +3714,9 @@
     },
     {
       "type": "Feature",
-      "id": "特拉比松帝国",
+      "id": "特拉布宗帝国",
       "properties": {
-        "title": "特拉比松帝国",
+        "title": "特拉布宗帝国",
         "role": "rival",
         "tint": "#5f8f9f",
         "anchor": [38.49, 40.81]
@@ -4053,9 +4053,9 @@
     },
     {
       "type": "Feature",
-      "id": "奇里乞亚亚美尼亚",
+      "id": "奇里乞亚亚美尼亚王国",
       "properties": {
-        "title": "奇里乞亚亚美尼亚",
+        "title": "奇里乞亚亚美尼亚王国",
         "role": "rival",
         "tint": "#a8942f",
         "anchor": [35.68, 37.34]

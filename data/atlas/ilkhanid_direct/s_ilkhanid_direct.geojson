@@ -3,15 +3,15 @@
   "license": "Approximate historical boundaries for illustration, not surveyed borders. When reusing, credit Jiangshan Atlas (https://github.com/DeanChensj/jiangshan-map) and the sources in data/atlas/README.md. Prefecture-level (郡/州/府) boundaries derive from CHGIS V6 and the Hartwell China Historical GIS: academic, non-commercial use only; do not redistribute; not licensed under GPL-3.0.",
   "snapshot": {
     "caption": "1277 年 · 伊儿汗国直辖",
-    "note": "马木留克介入安纳托利亚，蒙古直接征税，经济与人口承压。",
+    "note": "马穆鲁克介入安纳托利亚，蒙古直接征税，经济与人口承压。",
     "polities": [
-      "卢西尼昂塞浦路斯",
+      "吕西尼昂塞浦路斯",
       "罗姆苏丹国",
-      "特拉比松帝国",
-      "奇里乞亚亚美尼亚",
+      "特拉布宗帝国",
+      "奇里乞亚亚美尼亚王国",
       "拜占庭帝国",
-      "伊儿汗国宗主权",
-      "马木留克王朝",
+      "伊儿汗国",
+      "马穆鲁克王朝",
       "耶路撒冷王国"
     ],
     "regions": []
@@ -19,9 +19,9 @@
   "features": [
     {
       "type": "Feature",
-      "id": "卢西尼昂塞浦路斯",
+      "id": "吕西尼昂塞浦路斯",
       "properties": {
-        "title": "卢西尼昂塞浦路斯",
+        "title": "吕西尼昂塞浦路斯",
         "role": "main",
         "tint": "#b8892f",
         "anchor": [32.98, 34.91]
@@ -714,9 +714,9 @@
     },
     {
       "type": "Feature",
-      "id": "特拉比松帝国",
+      "id": "特拉布宗帝国",
       "properties": {
-        "title": "特拉比松帝国",
+        "title": "特拉布宗帝国",
         "role": "rival",
         "tint": "#5f8f9f",
         "anchor": [38.49, 40.81]
@@ -1053,9 +1053,9 @@
     },
     {
       "type": "Feature",
-      "id": "奇里乞亚亚美尼亚",
+      "id": "奇里乞亚亚美尼亚王国",
       "properties": {
-        "title": "奇里乞亚亚美尼亚",
+        "title": "奇里乞亚亚美尼亚王国",
         "role": "rival",
         "tint": "#a8942f",
         "anchor": [35.68, 37.34]
@@ -1893,9 +1893,9 @@
     },
     {
       "type": "Feature",
-      "id": "伊儿汗国宗主权",
+      "id": "伊儿汗国",
       "properties": {
-        "title": "伊儿汗国宗主权",
+        "title": "伊儿汗国",
         "role": "rival",
         "tint": "#7a5a8a",
         "anchor": [50.78, 34.33]
@@ -3791,9 +3791,9 @@
     },
     {
       "type": "Feature",
-      "id": "马木留克王朝",
+      "id": "马穆鲁克王朝",
       "properties": {
-        "title": "马木留克王朝",
+        "title": "马穆鲁克王朝",
         "role": "rival",
         "tint": "#7a7a3a",
         "anchor": [29.47, 26.78]

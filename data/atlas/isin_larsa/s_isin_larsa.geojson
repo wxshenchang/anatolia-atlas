@@ -2,16 +2,16 @@
   "type": "FeatureCollection",
   "license": "Approximate historical boundaries for illustration, not surveyed borders. When reusing, credit Jiangshan Atlas (https://github.com/DeanChensj/jiangshan-map) and the sources in data/atlas/README.md. Prefecture-level (郡/州/府) boundaries derive from CHGIS V6 and the Hartwell China Historical GIS: academic, non-commercial use only; do not redistribute; not licensed under GPL-3.0.",
   "snapshot": {
-    "caption": "前 1900 年 · 伊辛与拉尔萨并立",
+    "caption": "前 1900 年 · 伊辛—拉尔萨时期并立",
     "note": "乌尔第三王朝崩溃后阿摩利诸王朝分据，巴比伦尚是其中不起眼的一支。",
     "polities": [
       "埃兰",
       "古埃及",
       "早期迦南诸城邦",
-      "比布鲁斯与腓尼基早期城邦",
+      "比布鲁斯与早期腓尼基城邦",
       "外约旦早期诸部",
-      "伊辛与拉尔萨",
-      "埃勃拉与马里"
+      "伊辛—拉尔萨时期",
+      "埃布拉与马里"
     ],
     "regions": []
   },
@@ -2735,9 +2735,9 @@
     },
     {
       "type": "Feature",
-      "id": "比布鲁斯与腓尼基早期城邦",
+      "id": "比布鲁斯与早期腓尼基城邦",
       "properties": {
-        "title": "比布鲁斯与腓尼基早期城邦",
+        "title": "比布鲁斯与早期腓尼基城邦",
         "role": "rival",
         "tint": "#5f7f8f",
         "anchor": [35.88, 33.88]
@@ -3079,9 +3079,9 @@
     },
     {
       "type": "Feature",
-      "id": "伊辛与拉尔萨",
+      "id": "伊辛—拉尔萨时期",
       "properties": {
-        "title": "伊辛与拉尔萨",
+        "title": "伊辛—拉尔萨时期",
         "role": "rival",
         "tint": "#9a7a3a",
         "anchor": [42.49, 33.23]
@@ -3488,9 +3488,9 @@
     },
     {
       "type": "Feature",
-      "id": "埃勃拉与马里",
+      "id": "埃布拉与马里",
       "properties": {
-        "title": "埃勃拉与马里",
+        "title": "埃布拉与马里",
         "role": "rival",
         "tint": "#c1913a",
         "anchor": [38.56, 34.8]
